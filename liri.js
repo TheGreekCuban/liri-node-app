@@ -1,24 +1,38 @@
 require("dotenv").config()
 const keys = require("./keys.js")
-console.log(keys)
+const axios = require("axios")
+const moment = require("moment")
+// console.log(keys)
 // const spotify = new spotify(keys.spotify)
 
-const command = process.argv[2]
-console.log(command)
+let command = process.argv[2]
+let descriptor = process.argv[3]
+console.log("Command: ", command)
+console.log("Descriptor: ", descriptor)
 
 /* 
 concert-this
------------------------------------------------------------------------------------------------------------------------------------------------------------
-    node liri.js concert-this <artist/band name here>
+-----------------------------------------------------------------------------------------------------------------------------------
+    syntax: node liri.js concert-this <artist/band name here>
 
     This will search the Bands in Town Artist Events API ("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp") for an artist and render the following information about each event to the terminal:
         
         Name of the venue
         Venue location
         Date of the Event (use moment to format this as "MM/DD/YYYY")
-
 */
 
+const concertThis = () => {
+    axios.get("https://rest.bandsintown.com/artists/" + descriptor + "/events?app_id=codingbootcamp")
+        .then(response => {
+            for(let i = 0; i < response.data.length; i++) {
+              console.log(`Venue: ${response.data[i].venue.name} (${response.data[i].venue.city}, ${response.data[i].venue.country})`)
+              console.log(`Date: ${moment(response.data[i].datetime, moment.ISO_8601).format('MM/DD/YYYY')}`)
+              console.log(``)
+            }
+        })
+        .catch(error => console.log("This is the error: ", error))       
+}
 
 /*
 spotify-this-song
@@ -45,7 +59,6 @@ spotify-this-song
     Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the node-spotify-api package.
 */
 
-
 /*
 movie-this
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -71,7 +84,6 @@ movie-this
         You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
 */
 
-
 /*
 do-what-it-says
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -80,5 +92,27 @@ Using the fs Node package, LIRI will take the text inside of random.txt and then
 It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
-
 */
+
+
+//Use a switch statement to take the command input and run all necessary functions
+switch(command.toLowerCase()) {
+    case 'concert-this':
+        concertThis()
+        break;
+    case 'spotify-this-song':
+        spotifyThisSong()
+        break;
+    case 'movie-this':
+        movieThis()
+        break;
+    case 'do-what-it-says':
+        doWhatItSays()
+        break;
+    default:
+        console.log(`Command not recognized, please use one of the following commands:   concert-this
+                                                                    spotify-this-song
+                                                                    movie-this
+                                                                    do-what-it-says`
+        )
+    }
