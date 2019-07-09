@@ -1,0 +1,95 @@
+{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Place Bell (Laval, Canada)",
+  "Date": "Date: 07/12/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Lebreton Flats (Ottawa, Canada)",
+  "Date": "Date: 07/13/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: The Wave Outdoor (Wichita, United States)",
+  "Date": "Date: 07/31/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: The Stir Cove at Harrahs (Council Bluffs, United States)",
+  "Date": "Date: 08/01/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: The Riverside Theater (Milwaukee, United States)",
+  "Date": "Date: 08/03/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: U.S. Bank Stadium (Minneapolis, United States)",
+  "Date": "Date: 08/04/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Fistral Beach and Watergate Bay (Newquay, United Kingdom)",
+  "Date": "Date: 08/07/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Park Śląski (Chorzow, Poland)",
+  "Date": "Date: 08/23/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Park Śląski (Chorzow, Poland)",
+  "Date": "Date: 08/24/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Centennial Olympic Park (Atlanta, United States)",
+  "Date": "Date: 09/07/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Del Mar Fairgrounds (Del Mar, United States)",
+  "Date": "Date: 09/13/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Jiffy Lube Live (Bristow, United States)",
+  "Date": "Date: 09/27/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Bomb Factory (Dallas, United States)",
+  "Date": "Date: 10/04/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Smart Financial Centre at Sugar Land (Sugar Land, United States)",
+  "Date": "Date: 10/06/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Shelby Farms Park (Memphis, United States)",
+  "Date": "Date: 10/19/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Majestic Theatre San Antonio (San Antonio, United States)",
+  "Date": "Date: 10/05/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Red Rocks Amphitheatre (Morrison, United States)",
+  "Date": "Date: 10/31/2019"
+}{
+  "Data_Type": "Information about the upcomming WU Tang Clan concert",
+  "Venue": "Venue: Anselmo Valencia Amphitheatre (Tucson, United States)",
+  "Date": "Date: 11/02/2019"
+}
+{
+  "Data_Type": "Information regarding the song: Bump Bump Bump",
+  "Artist": "B2K",
+  "Title": "Bump Bump Bump",
+  "Link": "https://open.spotify.com/track/74jMwg2zsFMICzW3Wems6h",
+  "Album": "Greatest Hits"
+}{
+  "Data_Type": "Information regarding the song Bump Bump Bump",
+  "Artist": "B2K",
+  "Title": "Bump Bump Bump",
+  "Link": "https://open.spotify.com/track/74jMwg2zsFMICzW3Wems6h",
+  "Album": "Greatest Hits"
+}{
+  "Data_Type": "Information regarding the movie Bad Boys",
+  "Title": "Bad Boys",
+  "Year": "07 Apr 1995",
+  "IMDB": "6.9/10",
+  "RottenTomatoes": "42%",
+  "Country": "USA",
+  "Plot": "Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct.",
+  "Cast": "Lisa Boyle, Michael Taliferro, Emmanuel Xuereb, Tchéky Karyo"
+}
