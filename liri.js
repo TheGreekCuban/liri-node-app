@@ -53,8 +53,7 @@ const spotifyThisSong = () => {
         .then(response => {
             console.log("Artist: ", response.tracks.items[0].album.artists[0].name)
             console.log("Title: ", descriptor)
-            //come back to URL to fix
-            console.log("Link: ", response.tracks.items[0].album.external_urls.spotify)
+            console.log("Link: ", response.tracks.items[0].external_urls.spotify)
             console.log("Album: ", response.tracks.items[0].album.name)
             console.log("======================================")
         })
