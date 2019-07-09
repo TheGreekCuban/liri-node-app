@@ -86,6 +86,25 @@ movie-this
         You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
 */
 
+const movieThis = () => {
+    
+    if (!descriptor) descriptor = "Mr. Nobody"
+    
+    axios.get("https://www.omdbapi.com/?t=" + descriptor + "&y=&plot=short&apikey=trilogy")
+    .then(response => {
+        console.log("Title: ", response.data.Title)
+        console.log("Release Year: ", response.data.Released)
+        console.log("IMDB Rating: ", response.data.Ratings[0].Value)
+        console.log("Rotten Tomatoes: ", response.data.Ratings[1].Value)
+        console.log("Country: ", response.data.Country)
+        console.log("Language: ", response.data.Language)
+        console.log("Plot: ", response.data.Plot)
+        console.log("Cast: ", response.data.Actors)
+        console.log("======================================")
+    }
+    )
+}
+
 /*
 do-what-it-says
 ----------------------------------------------------------------------------------------------------------------------------------
