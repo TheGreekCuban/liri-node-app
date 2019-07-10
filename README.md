@@ -1,6 +1,6 @@
-#Liri-Node-App
+# Liri-Node-App
 
-##What The Project Does
+## What The Project Does
 
 #### The Liri-Node-App is a node.js application that makes various API calls and returns relevant information based on user input. It uses both the axios and spotify packages and makes calls to the Bands In Town API, the OMDB API and the Spotify API.
 
@@ -33,5 +33,14 @@
 
  
 
-###Concert-This In Action: 
+#### Concert-This Command
 ![](concert-this.gif)
+
+#### Movie-This Command
+![](movie-this.gif)
+
+#### Spotify-This-Song Command
+![](spotify-this.gif)
+
+#### Do-What-It-Says Command
+![](do-what-it-says.gif)
