@@ -6,6 +6,7 @@
 
 #### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie. All commands will also append a string version of the data to a separate log.txt file.
 
+
     1. Concert-this: This command searches the Bands in Town Artist Events API for a ** BAND ** and render the following information about each event to the terminal =>
         a. Name of the venue
         b. Venue location
@@ -29,7 +30,8 @@
         h. Actors in the movie
         i. If no movie is provided then the program will default to "Mr. Nobody" 
 
-    4. Do-what-it-says: This uses the fs Node package. LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. Initially, it should run spotify-this-song for "I Want it That Way".
+    4. Do-what-it-says: This uses the fs Node package. LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. 
+       Initially, it should run spotify-this-song for "I Want it That Way".
 
  
 #### Do-What-It-Says Command
