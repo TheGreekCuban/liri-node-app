@@ -4,7 +4,7 @@
 
 #### The Liri-Node-App is a node.js application that makes various API calls and returns relevant information based on user input. It uses both the axios and spotify packages and makes calls to the Bands In Town API, the OMDB API and the Spotify API.
 
-#### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie.
+#### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie. All commands will also append a string version of the data to a separate log.txt file.
 
     1. Concert-this: This command searches the Bands in Town Artist Events API for a **BAND** and render the following information about each event to the terminal =>
         1a. Name of the venue
@@ -31,3 +31,7 @@
 
     4. Do-what-it-says: This uses the fs Node package. LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. Initially, it should run spotify-this-song for "I Want it That Way".
 
+ 
+
+###Concert-This In Action: 
+![](concert-this.gif)
