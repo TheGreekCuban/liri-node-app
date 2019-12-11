@@ -2,7 +2,7 @@
 
 ## START UP INSTRUCTIONS
 
-#### This is a backend application, to install it locally run the command: git clone git@github.com:TheGreekCuban/Bamazon.git
+#### This is a backend application, to install it locally run the command: 'git clone git@github.com:TheGreekCuban/liri-node-app.git'
 #### Once cloned, cd into the root directory and run npm install to install all the necessary packages
 
 #### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie. All commands will also append a string version of the data to a separate log.txt file.
