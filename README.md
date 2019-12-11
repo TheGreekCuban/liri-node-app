@@ -2,11 +2,14 @@
 
 ## START UP INSTRUCTIONS
 
-##### This is a backend application, to install it locally run the command: git clone git@github.com:TheGreekCuban/Bamazon.git
-##### Once cloned, cd into the root directory and run npm install to install all the necessary packages
+#### This is a backend application, to install it locally run the command: git clone git@github.com:TheGreekCuban/Bamazon.git
+#### Once cloned, cd into the root directory and run npm install to install all the necessary packages
 
-##### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie. All commands will also append a string version of the data to a separate log.txt file.
-   1. node 
+#### There are four commands and each commmand requires an input. If no input is provided, some functions will return a default artist or movie. All commands will also append a string version of the data to a separate log.txt file.
+   1. node liri.js concert-this [name of band]
+   2. node liri.js spotify-this-song [name of song]
+   3. node liri.js movie-this [name of movie]
+   4. node liri.js do-what-it-says
 
 
 ## What The Project Does
