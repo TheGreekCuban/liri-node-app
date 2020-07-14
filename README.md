@@ -1,4 +1,4 @@
-# Liri-Node-App
+# Liri-Node-Application
 
 ## START UP INSTRUCTIONS
 
